@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 Space Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+</head>
+<style>
+    body {
+        margin: 0;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    canvas {
+        width: 100%;
+        height: 80%;
+    }
+    #container {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 20px;
+    }
+</style>
+<body>
+<div id="container">Click the screen to start and pick the port. Refresh page to restart.
+                <br>Turn the potentiometer to change how often the purple triangles spawn. Lighter = faster</div>
+<script src="index.js"></script>
+<div id="container">Score: <div id="score"> 0 </div></div>
+</body>
+</html>
